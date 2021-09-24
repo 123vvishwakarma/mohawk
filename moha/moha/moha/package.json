@@ -1,0 +1,23 @@
+{
+  "name": "mohawk",
+  "version": "1.0.0",
+  "description": "add and get user details",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 60000",
+    "start": "node server.js",
+    "precommit": "nyc npm run test"
+  },
+  "author": "mohawk",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^2.2.4",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.1.6",
+    "nyc": "^8.4.0",
+    "supertest": "^6.1.6"
+  }
+}
